@@ -44,5 +44,6 @@ isEmptyLine = all isSpace
 indentWidth :: Int
 indentWidth = 4
 
+
 indent :: Int -> String -> String
 indent amount = unlines . map (replicate amount ' ' ++) . lines
