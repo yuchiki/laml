@@ -1,10 +1,27 @@
-This is a
-    small ippo
-        for me
-    but
-    %big [ippo] or niho
-        .for human beings
-            all over
-    the
-        world
-isn't it?
+%documentclass article
+%usepackage amsmath,amsthm,amssymb
+
+%title What's laml?
+%author Yuchiki
+%date {Compiled on \today}
+
+.document
+    %maketitle
+
+    .abstract
+        This is the abstract.
+
+    %section Introduction
+        This is the intro.
+        \newcommand{\sayEqual}[2]{#1 = #2}
+        .align
+            l &= 2\pi r\\
+            S &= \pi r^2\\
+        Hence 
+        .equation
+            \sayEqual{S}{\frac{l^2}{4\pi}}
+        %subsection Subsec.
+            This is a subsection.
+
+    %section Conclusion
+        This is the conclusion, isn't it?
