@@ -103,17 +103,3 @@ optParR = ']'
 
 takeRight :: Either a b -> b
 takeRight (Right r) = r
-
-sampleText :: String
-sampleText =
-    "This is a\n\
-    \    small ippo\n\
-    \        for me\n\
-    \    but\n\
-    \    %big [ippo] or niho\n\
-    \        .for human beings\n\
-    \            all over\n\
-    \ \
-    \    the\n\
-    \        world\n\
-    \isn't it?\n"
