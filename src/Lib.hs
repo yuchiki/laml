@@ -1,7 +1,7 @@
 {-# LANGUAGE TypeSynonymInstances, FlexibleInstances #-}
 
 module Lib
-    ( someFunc
+    ( someFunc, parseContent
     ) where
 
 import Text.Parsec
