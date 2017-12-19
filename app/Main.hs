@@ -1,8 +1,6 @@
 module Main where
 
-import Lib
+import Content
 
 main :: IO ()
-main = do
-    input <- getContents
-    print $ parseContent input
+main = print =<< parseContent <$> getContents
