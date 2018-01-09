@@ -1,12 +1,14 @@
 OBJ=laml
-EXE=laml-exe
 subdirs:=sample
-.PHONY: $(subdirs)
+.PHONY: $(subdirs) install TEST clean
 
 $(OBJ): app src
 	stack build
 
-.PHONY: TEST
+install:
+	stack build
+	stack install
+
 TEST:
 	make -C sample
 
