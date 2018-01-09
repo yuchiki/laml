@@ -1,3 +1,34 @@
+### https://raw.github.com/github/gitignore/982268df04842c9b34b7bdb0c4b0696b7db6e6fd/Haskell.gitignore
+
+dist
+dist-*
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+*.eventlog
 .stack-work/
-laml.cabal
-*~
+cabal.project.local
+.HTF/
+.ghc.environment.*
+
+
+### https://raw.github.com/github/gitignore/982268df04842c9b34b7bdb0c4b0696b7db6e6fd/Global/VisualStudioCode.gitignore
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
