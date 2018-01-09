@@ -1,21 +1,19 @@
 # Laml Converter
+Convert a laml source into a LaTeX source.
 
 ## What's this?
 A converter from **laml** source to LaTeX source.
+For example, the left laml file is converted into the right LaTeX file.
 
-For example, the following is a laml source.
-
-![source_code.laml](images/laml_source_code.png)
-
-The laml file above is converted into the following LaTex file.
-
-![source_code.tex](images/generated_tex.png)
+![comparison](images/comparison.png)
 
 This auto-generated LaTeX file can be compiled into a pdf file in usual ways.
 ![pdf](images/generated_pdf.png)
 
 ## What's laml? 
 Haml-like notation of LaTeX source.
+
+A [laml syntax highlighter for VSCode](https://github.com/yuchiki/laml-highlighter) is available.
 
 ## How to use?
 `laml < input.laml > output.tex`
