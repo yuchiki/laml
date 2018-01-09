@@ -3,7 +3,7 @@
 
 %title What's laml?
 %author Yuchiki
-%date {Compiled on \today}
+%date Compiled on \today
 
 .document
     %maketitle
