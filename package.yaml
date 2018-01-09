@@ -24,8 +24,8 @@ dependencies:
 
 library:
   source-dirs: src
-  dependencies:
-    - parsec, indents
+  dependencies: 
+  - parsec
 
 executables:
   laml-exe:
@@ -36,7 +36,7 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - laml, parsec
+    - laml
 
 tests:
   laml-test:
