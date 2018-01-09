@@ -22,7 +22,6 @@ cabal.project.local
 .HTF/
 .ghc.environment.*
 
-
 ### https://raw.github.com/github/gitignore/982268df04842c9b34b7bdb0c4b0696b7db6e6fd/Global/VisualStudioCode.gitignore
 
 .vscode/*
@@ -31,4 +30,4 @@ cabal.project.local
 !.vscode/launch.json
 !.vscode/extensions.json
 
-
+laml.cabal

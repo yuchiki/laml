@@ -6,7 +6,7 @@ sample.dvi: sample.tex
 
 sample.tex: sample.laml
 	cd ..
-	stack exec laml-exe < sample.laml > sample.tex
+	stack exec laml < sample.laml > sample.tex
 
 .PHONY: clean
 clean:

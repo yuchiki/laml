@@ -28,7 +28,7 @@ library:
   - parsec
 
 executables:
-  laml-exe:
+  laml:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
