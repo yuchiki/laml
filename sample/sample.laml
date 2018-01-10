@@ -1,5 +1,5 @@
 %documentclass article
-%usepackage amsmath,amsthm,amssymb
+%usepackage amsmath, amsthm, amssymb
 
 %title What's laml?
 %author Yuchiki
