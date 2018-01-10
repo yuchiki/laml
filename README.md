@@ -16,7 +16,10 @@ Haml-like notation of LaTeX source.
 A [laml syntax highlighter for VSCode](https://github.com/yuchiki/laml-highlighter) is available.
 
 ## How to use?
-`laml < input.laml > output.tex`
+`laml < input.laml > output.tex` generates output.tex.
+
+And `laml-compile input.laml` generates `input.pdf`.
+To change the compilation chain of LaTeX, modify laml-compiler.sh and do `make install` again.
 
 ## How to install?
 ```sh
