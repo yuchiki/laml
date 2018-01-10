@@ -8,6 +8,7 @@ $(OBJ): app src
 install:
 	stack build
 	stack install
+	install -D -m 700 laml-compile.sh ${HOME}/.local/bin/laml-compile
 
 TEST:
 	make -C sample
